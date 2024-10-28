@@ -1,0 +1,117 @@
+@media screen and (max-width:1024px) {
+    .price-card{ 
+        width: 48%;
+    }
+    .plan { 
+        flex-wrap: wrap;
+    }
+    .dropdown{
+        display: block;
+    }
+    .nav-links{
+        display: none;
+    }
+    .navbar-btn{
+        display: none;
+    }
+
+    .choose-us {
+      
+        margin-top: 60px;
+    }
+    .choose-description{
+        margin-top: 40px;
+    }
+    .business-duration {
+        flex-wrap: wrap;
+        justify-content: space-around;
+      }
+      .review-box {
+          width: 47%;
+          /* margin-bottom: 20px; */
+          margin: 0px 0px 15px 0px;
+      }
+      .hero-heading {
+        font-size: 40px;
+       
+    }
+    .hero-img {
+        margin-top: 30px;
+    }
+}
+@media screen and (max-width:850px) {
+    .pricing {
+        padding: 50px 20px 50px 20px;
+      
+    }
+    .movies {
+       padding: 50px 20px 50px 20px;
+    }
+    .choose-main {
+        margin-top: 30px;
+    }
+    .contacts {
+        padding: 30px;
+    }
+}
+@media screen and (max-width:768px) {
+
+    .price-card {
+        width: 100%;
+        max-width: 100%;
+        margin: 10px 0px 10px 0px;
+    }
+    .compatible {
+        padding: 60px 20px 60px 20px;
+    }
+
+    .movies-img {
+     margin-top: 30px;
+     margin-bottom: 30px;
+    }
+    .row>.p-5{
+        padding: 1rem !important;
+    }
+    .reviews {
+      
+        padding: 50px 20px 50px 20px;
+    }
+    .hero-heading {
+        font-size: 37px;
+       
+    }
+    .hero-section {
+        margin-top: 140px;
+    }
+    .logo {
+        width: 200px;
+    }
+    .service-cards{
+        width: 100% !important;
+        margin-bottom: 30px;
+    }
+  
+}
+@media screen and (max-width:600px) {
+    .review-box {
+        width: 100%;
+        margin: 0px 0px 15px 0px;
+    }
+    .first-navbar {
+        padding: 0px 20px 0px 0px;
+    }
+    .footer-links>a {
+       margin-bottom: 20px;
+       display: inline-block;
+    }
+}
+@media screen and (max-width:425px) {
+    .hero-heading {
+        font-size: 30px;
+       
+    }
+    .hero-section {
+        margin-top: 100px;
+    }
+
+}
