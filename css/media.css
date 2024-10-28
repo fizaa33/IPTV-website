@@ -39,6 +39,11 @@
         margin-top: 30px;
     }
 }
+@media (max-width: 992px) {
+    .channel-container {
+        max-width: 800px;
+    }
+}
 @media screen and (max-width:850px) {
     .pricing {
         padding: 50px 20px 50px 20px;
@@ -53,6 +58,7 @@
     .contacts {
         padding: 30px;
     }
+  
 }
 @media screen and (max-width:768px) {
 
@@ -90,8 +96,25 @@
         width: 100% !important;
         margin-bottom: 30px;
     }
+    .list1, .list2, .list3 {
+        flex: 0 0 100%; 
+        max-width: 100%;
+    }
+    .channel-container {
+        flex-wrap: wrap;
+        max-width: 600px;
+        padding-right: 30px;
+        padding-left: 30px;
+    }
+    .channel-head{
+        padding-top: 120px;
+      
+      
+    }
+    
   
 }
+
 @media screen and (max-width:600px) {
     .review-box {
         width: 100%;
@@ -104,6 +127,7 @@
        margin-bottom: 20px;
        display: inline-block;
     }
+   
 }
 @media screen and (max-width:425px) {
     .hero-heading {

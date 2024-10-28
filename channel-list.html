@@ -14,81 +14,29 @@
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
 
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="media.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/media.css">
+    <script src="js/navbar.js"></script>
 </head>
 <body data-bs-spy="scroll" data-bs-target=".navbar" data-bs-offset="50">
     <div class="whatsapp">
         <span class="tooltip-text">Contact Us! <span class="arrow">▶</span></span>
         <img src="images/whatsapp-logo.svg" alt="">
     </div>
-    <nav class=" navbar first-navbar">
-    <a href="index.html" style="margin-left: 0;"> <img class="logo" src="images/logo.svg" alt=""></a>
-       
-<div class="nav-right">
-    <ul class="nav-links">
-        <li><a href="index.html">Home</a></li>
-        <li><a href="#">Channel list</a></li>
-        <li> <a href="#pricing">Pricing</a> </li>
-        <li> <a href="#">Blog</a> </li>
-        <li><a href="#questions">FAQ</a> </li>
-       
-    </ul>
-    <div  class="dropdown">
-        <img data-bs-toggle="offcanvas" style="height: 80%;" data-bs-target="#demo" src="images/menu.svg" alt="Menu Icon" />
-      </div>
-      <div class="offcanvas offcanvas-end bg-dark p-2" id="demo">
-        <div class="offcanvas-header">
-          <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas"></button>
-        </div>
-        <div class="offcanvas-body">
-            <ul id="dropdown-list text-white">
-                <li class="mt-4"><a href="#">Home</a></li>
-                <li class="mt-3"><a href="#">Channel list</a></li>
-                <li class="mt-3"> <a href="#">Pricing</a> </li>
-                <li class="mt-3"> <a href="#">Blog</a> </li>
-                <li class="mt-3"><a href="#">FAQ</a> </li>
-                <button style="border-radius: 5px;" class="contact-us mt-3">Contact us</button>
-            </ul>
-        </div>
-      </div>      
-</div>
-<div class="navbar-btn">
-<button class="contact-us">Contact us</button>
-</div>
+    <nav id="navbar"></nav>
 
-    </nav>
     <div class="channel-head">
-        <h1>CHANNEL LIST</h1>
+        <h1 class="shade-text">CHANNEL LIST</h1>
     </div>
-    <div class="container">
-        
+    <div class="container channel-container">
+        <div class="list1" id="accordion1"></div>
+        <div class="list2" id="accordion2"></div>
+        <div class="list3" id="accordion3"></div>
     </div>
 
-    <div class="contacts">
-        <p class="top-blue">Contact Us</p>
-        <h1>Have Questions? Contact Us Now</h1>
-        <p class="contact-text">If you’re curious or have any concerns about our services, don’t hesitate to get in touch.
-            We’re here to provide prompt and thorough answers to all your queries.</p>
-            <div class="contact-icons">
-                <i class="fa-brands fa-square-whatsapp"></i>
-                <i class="fa-brands fa-square-facebook"></i>
-                <i class="fa-solid fa-square-envelope"></i>
-                <i class="fa-brands fa-square-instagram"></i>
-            </div>
-    </div>
-    <footer>
-        <img class="logo" src="images/logo.svg" alt="">
-        <div class="footer-links">
-            <a href="">TERMS OF SERVICE</a>
-            <a href="">SETUP GUIDE</a>
-            <a href="">REFUND AND RETURN POLICY</a>
-            <a href="">PRIVACY POLICY</a>
-        </div>
-        <p class="copyright">Copyright © 2024 IPTVFLIX - All Right Reserved</p>
-    </footer>
+   <div id="footer"></div>
 
-    <script src="script.js"></script>
+    <script src="js/channel.js"></script>
   
 </body>
 </html>
