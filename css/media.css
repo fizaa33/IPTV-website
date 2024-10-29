@@ -2,9 +2,6 @@
     .price-card{ 
         width: 48%;
     }
-    .plan { 
-        flex-wrap: wrap;
-    }
     .dropdown{
         display: block;
     }
@@ -28,7 +25,7 @@
       }
       .review-box {
           width: 47%;
-          /* margin-bottom: 20px; */
+        
           margin: 0px 0px 15px 0px;
       }
       .hero-heading {
@@ -37,6 +34,9 @@
     }
     .hero-img {
         margin-top: 30px;
+    }
+    .tab-content{
+        flex-wrap: wrap;
     }
 }
 @media (max-width: 992px) {
